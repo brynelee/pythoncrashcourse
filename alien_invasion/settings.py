@@ -1,4 +1,4 @@
-class Settings():
+﻿class Settings():
 
     def __init__(self):
         self.screen_width = 1200
@@ -9,10 +9,10 @@ class Settings():
         self.ship_limit = 3
 
         # 子弹设置
-        self.bullet_width = 30
+        self.bullet_width = 300
         self.bullet_height = 15
         self.bullet_color = 60, 60, 60
-        self.bullets_allowed = 3
+        self.bullets_allowed = 30
 
         # 外星人设置
         self.fleet_drop_speed = 2
